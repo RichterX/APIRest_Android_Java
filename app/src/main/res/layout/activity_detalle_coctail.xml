@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleCoctail"
+    android:background="@drawable/fondococtel">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOTA: Puede que la primera vez no cargue correctamente. Solamente sal y vuelve a entrar y cargará correctamente"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:paddingTop="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/iv_coctail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="52dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/coctel" />
+
+            <TextView
+                android:id="@+id/tv_nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Recarga Vista"
+                android:textColor="@color/black"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/tv_idCoctail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="id" />
+
+            <TextView
+                android:id="@+id/tv_ingredientes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/aclonica"
+                android:text="Ingredientes"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_ingre15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Ingrediente"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_preparacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/aclonica"
+                android:text="Preparación"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_descripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="¿No aparece nada? Debes recargar la vista. Por favor, sal y vuelve a entrar. En unos segundos se mostrará un cóctel delicioso :)"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
